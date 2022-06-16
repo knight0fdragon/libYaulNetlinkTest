@@ -1,0 +1,17 @@
+9 XBANDSET.BMP		# XBANDSetupScreen
+10 PHONESET.BMP		# Phone Setup Screen
+14 CODENAME.BMP		# Choose Code Name Screen
+15 PICKICON.BMP		# Choose Icon Screen
+16 TAUNT.BMP		# Choose Taunt Screen
+25 STANDARD.BMP		# ServerConnect Screen
+26 STANDARD.BMP		# PeerConnection Screen
+27 MATCHUP.BMP		# Matchup (Versus) Screen
+31 INTRO.BMP		# Intro Screen
+35 NOMODEM.BMP		# No Modem Installed (please install one) Screen
+36 MORERAM.BMP		# Not Enough BackupRAM Available Screen
+38 H2HCHAT.BMP		# Head To Head Chat Screen
+39 STANDARD.BMP		# Post-Game Screen
+40 STANDARD.BMP		# Mode switch screen
+42 DIRDIAL.BMP		# Direct dial opponent screen
+44 STANDARD.BMP		# Direct Connection Set Up
+
