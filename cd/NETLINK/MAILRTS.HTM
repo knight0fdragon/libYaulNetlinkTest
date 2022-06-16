@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>%s</TITLE>
+</HEAD>
+<BODY BACKGROUND="file://ma_bg.gif">
+<FORM ACTION="pwmail://sendmessage" METHOD=PWMAIL>
+<TABLE WIDTH=100%%>
+<TR>
+<TD COLSPAN="2">
+<TABLE BORDER="1" WIDTH=100%%>
+<TR>
+<TD>
+<TABLE BGCOLOR="#808080" WIDTH=100%%>
+<TR>
+<TD>
+<IMG WIDTH=70 HEIGHT=24 SRC="file://T_TO.GIF">
+<TD>
+<INPUT TYPE="TEXT" NAME="pwmailto" SIZE="54" VALUE="%s">
+<TR>
+<TD>
+<IMG WIDTH=70 HEIGHT=24 SRC="file://S_SUB.GIF">
+<TD>
+<INPUT TYPE="TEXT" NAME="subject" SIZE="54" VALUE="%s">
+</TABLE>
+</TABLE>
+<TABLE BGCOLOR="#808080" BORDER="1" WIDTH=100%%>
+<TR>
+<TD>
+<TABLE>
+<TR>
+<TD COLSPAN="2">
+<TEXTAREA NAME="body" COLS="60" ROWS="10" WRAP="PHYSICAL">%s</TEXTAREA>
+</TABLE>
+</TABLE>
+<TABLE BGCOLOR="#808080" BORDER="1" WIDTH=100%%>
+<TR>
+<TD>
+<TABLE WIDTH=100%%>
+<TR>
+<TD>
+<CENTER>
+<INPUT TYPE="image" NAME="send" VALUE="Send" WIDTH=70 HEIGHT=24 SRC="file://sendbut.gif">
+<!--<INPUT TYPE="submit" NAME="send" VALUE="Send">-->
+<INPUT TYPE="reset" NAME="reset" VALUE="Clear">
+</CENTER>
+</TABLE>
+</TABLE>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>
